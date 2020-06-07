@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Rianne Fijten"
-  avatar           : "profile.png"
+  avatar           : "portraitphoto.jpg"
   bio              : "Senior scientist @ Maastro Clinic. Interests: Open science, FAIR data, data science and clinical application of (data) science. "
-  location         : "Maastricht, the Netherlands"
   employer         : "Maastro Clinic"
+  location         : "Maastricht, the Netherlands"
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=rianne+fijten"
   googlescholar    : "https://scholar.google.nl/citations?user=_q5Rkg0AAAAJ"
   email            : "rianne.fijten@maastro.nl" 
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/riannefijten/"
+  linkedin         : "riannefijten"
   orcid            : "https://orcid.org/0000-0002-1964-6317"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@riannefijten"
+  twitter          : "riannefijten"
   vine             :
   weibo            :
   xing             :
