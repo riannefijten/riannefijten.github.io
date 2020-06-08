@@ -33,19 +33,19 @@ Committees and workgroups
 
 Publications
 ======
-  <ul>{% for post in site.publications %}
+  <ol>{% for post in site.publications reversed%}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ol>
   
 Talks
 ======
-  <ul>{% for post in site.talks %}
+  <ol>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ol>
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+  <ul>{% for post in site.teaching reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
