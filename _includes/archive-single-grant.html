@@ -1,0 +1,19 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article>
+    <h2>{{ title }}</h2>
+
+    <p>{{ post.authors }}. <i>{{ post.venue }}</i>. {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+    <p>{{ post.excerpt | markdownify }}</p>
+        
+    <p>Access the article <a href=" {{ post.doi }} "><u>here</u></a></p>
+
+  </article>
+</div>
